@@ -1,0 +1,14 @@
+ - next up:  setup routes
+    - make them expose the method and path, so that they can be parsed...
+    - setup the actual commands separately...
+
+
+type analysis can't happen at runtime.
+ - it could be done by decorators
+http://blog.wolksoftware.com/decorators-metadata-reflection-in-typescript-from-novice-to-expert-part-4
+
+ - or at compile-time:
+ https://www.npmjs.com/package/ts-transformer-keys
+
+ - also check out reflect-metadata:
+ https://github.com/rbuckton/reflect-metadata
